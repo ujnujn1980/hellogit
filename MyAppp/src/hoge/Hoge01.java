@@ -31,6 +31,7 @@ public class Hoge01 extends HttpServlet {
 		//response.getWriter().append("Served at: ").append(request.getContextPath());
 		String justnow = hoge.Timeget.hogetime();
 		response.getWriter().append("Served at: ").append(justnow);
+		response.getWriter().append(" :ok?");
 	}
 
 	/**
